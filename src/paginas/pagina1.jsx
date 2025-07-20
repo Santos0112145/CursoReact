@@ -1,3 +1,8 @@
+import { Link } from 'react-router-dom';
 export default function Pagina1() {
-  return <h1>Pagina 1</h1>;
+  return <div>
+    <Link to="/pagina1">Pagina 1</Link>
+    <Link to="/pagina2">Pagina 2</Link>
+    <h1>Pagina 1</h1>
+  </div>
 }
